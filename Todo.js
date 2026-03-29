@@ -1,5 +1,6 @@
 import React from "react";
 import "./Todo.css";
+import "./FilteringButton.css";
 
 const Todo = React.memo(({ dispatch }) => {
   console.log("Rendered Todo");
