@@ -1,0 +1,13 @@
+// Make a TODO APP
+// Page:
+// 1. a bar to enter text with add button
+// 2. all todo texts with a completed checkbox and delete button
+// 3. 3 - All, Complete, Incomplete filtering buttons at the end use memo for avoinding recalculations
+// all functions should be usecallback
+// Using useReducer to manage states adding, deleting or completion states
+// useReducer in a separate page and export to todo to add there and in todolist to delete or complete
+// state has three values, id, text and complete?
+// when add is clicked useReducer add -> return added to state
+// when delete is clicked check the id and filter that
+// when completed is clicked toggle completed of the id
+// both the pages should import useReducer and use it

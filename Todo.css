@@ -1,0 +1,28 @@
+.todo {
+  /*position absolute because we want to center relative to the nearest parent */
+  /* We need:
+    ✔ Freedom to place the element anywhere
+    ✔ Ignore normal layout flow
+  */
+  position: absolute;
+  border: 5px solid black;
+  height: 500px;
+  width: 500px;
+  top: 50%;
+  /* without it the top of the element will be at 50% height so thw whole element will be below 50%, so we move half the body by x axis by 50% and by y axis 50%*/
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.spanStyle {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.inputStyle {
+  width: 92%;
+}
